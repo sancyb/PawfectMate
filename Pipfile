@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+scikit-learn = "*"
+pandas = "*"
+minsearch = "*"
+python-dotenv = "*"
+fastapi = "*"
+psycopg2-binary = "*"
+uvicorn = "*"
+
+[dev-packages]
+tqdm = "*"
+notebook = "==7.1.2"
+ipywidgets = "*"
+wikipedia-api = "*"
+requests = "*"
+pgcli = "*"
+
+[requires]
+python_version = "3.10"
